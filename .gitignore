@@ -1,0 +1,16 @@
+# Ambiente e build
+.venv/
+__pycache__/
+*.pyc
+build/
+dist/
+
+# Dados de clientes: os PDFs contêm nomes de beneficiários. Nunca versionar.
+*.pdf
+*.PDF
+
+# Saídas geradas
+coordenadas_extraidas/
+saida*/
+*.csv
+*.gpkg
